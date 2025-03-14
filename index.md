@@ -12,9 +12,9 @@ These observations highlight the importance of repeated execution-guided synthes
 
 ## Introduction
 
-Program synthesis aims to generate programs that satisfy a given specification, typically in the form of input-output examples. A key challenge in this field is **task decomposition**, where a complex synthesis problem is broken down into smaller, more manageable subtasks. Our motivation stems from the hypothesis that explicit decomposition can improve generalization by enabling models to construct solutions compositionally.
+Program synthesis aims to generate programs that satisfy a given specification, typically in the form of input-output examples. A key challenge in this field is **task decomposition**, where a complex synthesis problem is broken down into smaller, more manageable subtasks. Our motivation stems from the hypothesis that decomposition can improve generalization by enabling models to construct solutions compositionally.
 
-**ExeDec** follows this principle by incorporating a **Subgoal Model** that explicitly decomposes tasks into subtasks, alongside a **Synthesizer Model** that generates the corresponding programs. However, it remains unclear whether explicit decomposition is always beneficial or if an alternative approach—such as **iterative execution-driven synthesis**, where program generation is refined based on previous executions—can achieve similar or better results.
+**ExeDec** follows this principle by incorporating a **Subgoal Model** that *explicitly* decomposes tasks into subtasks, alongside a **Synthesizer Model** that generates the corresponding subprograms. However, it remains unclear whether explicit decomposition is always beneficial or if an alternative approach—such as **iterative execution-driven synthesis**, where program generation is refined based on previous executions—can achieve similar or better results.
 
 To explore this question, we introduce **REGISM**, a variant of ExeDec that eliminates explicit decomposition and relies purely on execution-driven synthesis. By comparing ExeDec and REGISM, we investigate the role of decomposition in program synthesis and examine whether explicit task decomposition is necessary for strong generalization or whether repeated execution alone can drive comparable or superior performance.
 
