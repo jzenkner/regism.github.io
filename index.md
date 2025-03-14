@@ -1,3 +1,4 @@
+# Shedding Light on Task Decomposition in Program Synthesis: The Driving Force of the Synthesizer Model
 ## Abstract
 
 Task decomposition is a fundamental mechanism in program synthesis, enabling complex problems to be broken down into manageable subtasks. ExeDec, a state-of-the-art program synthesis framework, employs this approach by combining a Subgoal Model for decomposition and a Synthesizer Model for program generation to facilitate compositional generalization. In this work, we develop REGISM, an adaptation of ExeDec that removes decomposition guidance and relies solely on iterative execution-driven synthesis.
