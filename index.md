@@ -43,7 +43,7 @@ Our findings reveal that ExeDec, with its explicit decomposition strategies, dem
 Notably, REGISM’s solutions frequently align more closely with the ground truth decompositions, suggesting that iterative execution-driven synthesis can naturally recover meaningful task structures without requiring explicit decomposition.
 
 <p align="center">
-  <img src="solved_tasks_average_density_deepcoder.svg" alt="Solution quality" width="500">
+  <img src="density_nonexclusive_deepcoder.svg" alt="Solution quality" width="500">
 </p>
 
 These results indicate that while task decomposition remains a powerful tool in program synthesis, execution-guided synthesis plays a crucial role in driving problem-solving performance. Our study highlights the need for further investigation into when and why explicit decomposition strategies are most beneficial and how they interact with execution-driven synthesis.
