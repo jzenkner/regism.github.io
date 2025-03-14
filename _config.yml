@@ -3,3 +3,9 @@ description: Investigating the role of task decomposition in program synthesis.
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme 
+
+github:
+  is_project_page: false
+
+full_paper_url: "https://arxiv.org/pdf/your-paper.pdf"
+website_url: "https://jzenkner.github.io/"
